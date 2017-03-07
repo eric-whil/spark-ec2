@@ -7,7 +7,8 @@ if [ -d "scala" ]; then
   return 0
 fi
 
-SCALA_VERSION="2.10.3"
+# The S3 bucket contains only the latest patch of Scala 2.9, 2.10 and 2.11.
+SCALA_VERSION="2.11.8"
 
 if [[ "0.7.3 0.8.0 0.8.1" =~ $SPARK_VERSION ]]; then
   SCALA_VERSION="2.9.3"

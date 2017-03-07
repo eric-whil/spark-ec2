@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# EGB
 
 export SPARK_LOCAL_DIRS="{{spark_local_dirs}}"
 
